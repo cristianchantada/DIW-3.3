@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Fredericka-the-great';
+  src: url('fredericka-the-great.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #FCA204;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  width: 400px;
+  border-bottom: 3px double #607D8B;
+  font-family: 'Fredericka-the-great';
+  margin: 20px auto; 
+  text-align: center;
+  padding: 5px;
+   
+}
+
+h2 {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+  background-color: #607D8B;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: left;
+
+}
+
+p {
+  background-color: #FCC204;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+p:nth-child(2) {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+p:nth-child(3), p:nth-child(6), p:nth-child(9), p:nth-child(13) {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+p:nth-child(2), p:nth-child(3), h2:nth-child(7), p:nth-child(8), p:nth-child(9) {
+  width: 95%;
+}
+
+h2:nth-child(4), p:nth-child(5), p:nth-child(6), h2:nth-child(10), p:nth-child(11), p:nth-child(12), p:nth-child(13) {
+  width: 80%;
+}  
+
+p:nth-child(14){
+  background-color: #FCA204;
+  text-align: end;
+  border-top: double 3px #607D8B;
+  margin-top: 20px;
+  padding: 10px;
+}
