@@ -11,14 +11,13 @@ body {
 }
 
 h1 {
-  text-align: center;
-  width: 400px;
-  border-bottom: 3px double #607D8B;
-  font-family: 'Fredericka-the-great';
+  width: 600px;
   margin: 20px auto; 
   text-align: center;
+  font-family: 'Fredericka-the-great';
+  font-size: 3rem; 
+  border-bottom: 3px double #607D8B;
   padding: 5px;
-   
 }
 
 h2 {
@@ -27,17 +26,16 @@ h2 {
   background-color: #607D8B;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   text-align: left;
-
 }
 
 p {
   background-color: #FCC204;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 10px;
   text-align: justify;
 }
@@ -47,23 +45,58 @@ p:nth-child(2) {
   border-top-left-radius: 10px;
 }
 
-p:nth-child(3), p:nth-child(6), p:nth-child(9), p:nth-child(13) {
+p:nth-child(4), p:nth-child(7), p:nth-child(10), p:nth-child(14) {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-p:nth-child(2), p:nth-child(3), h2:nth-child(7), p:nth-child(8), p:nth-child(9) {
+p:nth-child(2), p:nth-child(3), p:nth-child(4), h2:nth-child(8), p:nth-child(9), p:nth-child(10) {
   width: 95%;
 }
 
-h2:nth-child(4), p:nth-child(5), p:nth-child(6), h2:nth-child(10), p:nth-child(11), p:nth-child(12), p:nth-child(13) {
+h2:nth-child(5), p:nth-child(6), p:nth-child(7), h2:nth-child(11), p:nth-child(11), p:nth-child(12), p:nth-child(13), p:nth-child(14) {
   width: 80%;
 }  
 
-p:nth-child(14){
+p:nth-child(15){
   background-color: #FCA204;
   text-align: end;
   border-top: double 3px #607D8B;
   margin-top: 20px;
   padding: 10px;
+}
+
+.green {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.violet {
+  color: rgb(134, 11, 222);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.brown {
+  color: brown;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.background-white-blue {
+  background-color: white;
+  color: blue;
+  font-style: italic;
+}
+
+.red-cursive {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
 }
