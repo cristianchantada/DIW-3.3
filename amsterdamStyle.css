@@ -1,14 +1,22 @@
 @font-face {
   font-family: 'Dancing Script';
   src: url('dancing-script.woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-weight: normal, bold;
+  font-style: normal, bold;
 }
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+}
+
+body {
   background-color: #B52000;
+}
+
+
+span {
+  background-color: black;
 }
 
 html {
@@ -47,7 +55,7 @@ p:nth-child(2){
   right: 0;
   margin: 0px;
   width: 30vh;
-  height: 7vh;
+  height: 10vh;
   padding: 2px;
 }
 
@@ -88,4 +96,32 @@ p:nth-child(4), p:nth-child(5), p:nth-child(8), p:nth-child(9), p:nth-child(10) 
   margin-left: 20px;
 }
 
+.black {
+  color: black;
+  font-weight: bold;
+  background-color: #B52000;
+} 
 
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.background-white {
+  color: black;
+  background-color: white;
+}
+
+.bold {
+  background-color: white;
+  color: black;
+  font-family: 'Dancing Script';
+  font-weight: bold;
+} 
